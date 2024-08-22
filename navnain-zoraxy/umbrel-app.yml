@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: navanin-zoraxy
+name: Zoraxy
+tagline: zoraxy
+icon: https://zoraxy.arozos.com/img/icon.png
+category: Development
+version: "3.1.0"
+port: 8005
+description: >-
+A general purpose HTTP reverse proxy and forwarding tool. Now written in Go!
+
+developer: tobychui
+website: https://zoraxy.arozos.com/
+submitter: navanin
+submission: https://github.com/navanin/umbrel-navanin-app-store
+repo: https://github.com/navanin/umbrel-navanin-app-store
+support: https://github.com/navanin/umbrel-navanin-app-store/issues
+gallery:
+  - https://github.com/tobychui/zoraxy/raw/main/img/screenshots/1.png
+  - https://github.com/tobychui/zoraxy/raw/main/img/screenshots/2.png
+  - https://github.com/tobychui/zoraxy/raw/main/img/screenshots/3.png
+releaseNotes: >-
+  Added Zoraxy 3.1.0 - an easy and beratiful reverse proxy
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

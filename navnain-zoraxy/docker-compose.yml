@@ -9,7 +9,7 @@ services:
       APP_PORT: 8005
 
   zoraxy:
-    image: zoraxydocker/zoraxy:latest
+    image: zoraxydocker/zoraxy:3.1.0
     container_name: zoraxy
     ports:
       - 443:443
