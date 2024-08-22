@@ -16,9 +16,9 @@ submission: https://github.com/navanin/umbrel-navanin-app-store/tree/master/navn
 repo: https://github.com/navanin/umbrel-navanin-app-store
 support: https://github.com/navanin/umbrel-navanin-app-store/issues
 gallery:
-  - https://github.com/tobychui/zoraxy/raw/main/img/screenshots/1.png
-  - https://github.com/tobychui/zoraxy/raw/main/img/screenshots/2.png
-  - https://github.com/tobychui/zoraxy/raw/main/img/screenshots/3.png
+  - https://zoraxy.arozos.com/img/screenshots/1.png
+  - https://zoraxy.arozos.com/img/screenshots/2.png
+  - https://zoraxy.arozos.com/img/screenshots/3.png
 releaseNotes: >-
   Added Zoraxy 3.1.0 - an easy and beratiful reverse proxy
 dependencies: []
