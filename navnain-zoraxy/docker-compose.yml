@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: zoraxy_zoraxy_1
+      APP_PORT: 8005
+
+  zoraxy:
+    image: zoraxydocker/zoraxy:3.1.0
+    container_name: zoraxy
+    ports:
+      - 443:443
+    volumes:
+      - ${APP_DATA_DIR}/data:/opt/zoraxy/config/
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/localtime:/etc/localtime
+    environment:
+      PORT: "8005"
+      FASTGEOIP: "true"
